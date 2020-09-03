@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 h1 {
 	text-align: center;
 	font-size: 1.75em;
@@ -26,16 +29,11 @@ h2 {
 	background-color: yellow;
 }
 
-.container {
-	width: 95%;
-	position: relative;
-	left: 5px;
-}
-
-div.section	{
+.section	{
 	box-sizing: all;
 	background-color: green;
 	margin: 5px;
+	position: relative;
 }
 
 p {
@@ -60,7 +58,9 @@ p {
 		width: 45%;
 		
 	} 
-	#sushi div:nth-child(3){width:100%;}
+	.final{
+		width: 90%;
+	}
 }
 
 @media (max-width: 767px) {
